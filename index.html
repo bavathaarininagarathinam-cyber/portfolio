@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Character encoding and responsive viewport settings -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Website title that shows in the browser tab -->
+  <title>Bavathaarini | First-Year CSE Portfolio</title>
+  
+  <!-- Link to the external CSS stylesheet for styling -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========================================================= -->
+  <!-- 1. HEADER & NAVIGATION                                    -->
+  <!-- ========================================================= -->
+  <header>
+    <div class="container header-container">
+      <!-- Your Name / Brand Logo -->
+      <a href="#home" class="logo">Bavathaarini</a>
+
+      <!-- Navigation Bar with clickable anchor links to each section -->
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Dark Mode Toggle Button -->
+      <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark mode">🌙 Dark</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========================================================= -->
+    <!-- 2. HOME / HERO SECTION                                    -->
+    <!-- ========================================================= -->
+    <section id="home" class="hero-section">
+      <div class="container hero-container">
+        <p class="tagline">Hello! I am a</p>
+        <h1>First-Year Computer Science Student</h1>
+        <p class="intro-text">
+          Passionate about problem solving in C++, learning foundational data structures, and building clean web utilities.
+        </p>
+        <div class="cta-buttons">
+          <a href="#projects" class="btn btn-primary">View My Projects</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- 3. ABOUT SECTION                                          -->
+    <!-- ========================================================= -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <p>
+            I am currently in my first year studying Computer Science and Engineering. My programming journey started when I wrote my first nested loops in C, which made me curious about how algorithms and computers work under the hood.
+          </p>
+          <p>
+            Right now, I am focusing on Object-Oriented Programming (OOP) in C++, practicing fundamental data structures, and learning responsive web development with HTML, CSS, and JavaScript.
+          </p>
+          <p>
+            When I am not coding, I enjoy solving logic puzzles, participating in college tech clubs, and collaborating with peers on group projects.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- 4. SKILLS SECTION                                         -->
+    <!-- ========================================================= -->
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <p class="section-subtitle">Technologies and tools I practice and use in college:</p>
+
+        <div class="skills-grid">
+          <!-- Skill Category: Programming Languages -->
+          <div class="skill-card">
+            <h3>Programming Languages</h3>
+            <ul>
+              <li>C (Functions, Pointers, Structs)</li>
+              <li>C++ (Object-Oriented Basics, STL)</li>
+              <li>Python (Foundations & Scripting)</li>
+            </ul>
+          </div>
+
+          <!-- Skill Category: Web Development -->
+          <div class="skill-card">
+            <h3>Web Basics</h3>
+            <ul>
+              <li>HTML5 (Semantic Markup)</li>
+              <li>CSS3 (Flexbox, Grid, Responsive Design)</li>
+              <li>JavaScript (DOM Manipulation, Events)</li>
+            </ul>
+          </div>
+
+          <!-- Skill Category: Developer Tools -->
+          <div class="skill-card">
+            <h3>Developer Tools</h3>
+            <ul>
+              <li>Git & GitHub (Version Control)</li>
+              <li>Visual Studio Code (Code Editor)</li>
+              <li>Linux / Terminal Commands</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- 5. PROJECTS SECTION (3 Project Cards)                      -->
+    <!-- ========================================================= -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-subtitle">Here are 3 projects I have built during my first year:</p>
+
+        <div class="projects-grid">
+          <!-- Project Card 1: C/C++ Console App -->
+          <article class="project-card">
+            <h3>Bank Management System</h3>
+            <p class="project-desc">
+              A console application built in C that simulates banking operations including account creation, deposits, withdrawals, and balance inquiries using file handling.
+            </p>
+            <p class="project-tech"><strong>Tech:</strong> C, File I/O, Structs</p>
+            <div class="project-links">
+              <a href="https://github.com/your-username/banking-system-c" target="_blank" class="project-link">GitHub Code</a>
+            </div>
+          </article>
+
+          <!-- Project Card 2: Interactive Web Visualizer -->
+          <article class="project-card">
+            <h3>Sorting Algorithm Visualizer</h3>
+            <p class="project-desc">
+              An educational web tool that visualizes how Bubble Sort and Selection Sort work step-by-step using bar heights and color animations.
+            </p>
+            <p class="project-tech"><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+            <div class="project-links">
+              <a href="https://github.com/your-username/sorting-visualizer" target="_blank" class="project-link">GitHub Code</a>
+              <a href="https://your-username.github.io/sorting-visualizer" target="_blank" class="project-link">Live Demo</a>
+            </div>
+          </article>
+
+          <!-- Project Card 3: Student Utility -->
+          <article class="project-card">
+            <h3>Study Hours & GPA Tracker</h3>
+            <p class="project-desc">
+              A lightweight Python script that logs weekly study hours per subject and calculates projected semester GPA based on credit weights.
+            </p>
+            <p class="project-tech"><strong>Tech:</strong> Python, CSV Files</p>
+            <div class="project-links">
+              <a href="https://github.com/your-username/study-tracker" target="_blank" class="project-link">GitHub Code</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- 6. CONTACT SECTION                                        -->
+    <!-- ========================================================= -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <p class="contact-intro">
+          I would love to connect for freshman summer internships, hackathon teams, or discussions about tech!
+        </p>
+
+        <!-- Direct Email Link -->
+        <div class="contact-card">
+          <p>Send me an email:</p>
+          <a href="mailto:bavathaarininagarathinam@gmail.com" class="email-link">bavathaarininagarathinam@gmail.com</a>
+        </div>
+
+        <!-- Social Profiles -->
+        <div class="social-links">
+          <a href="https://github.com/your-username" target="_blank">GitHub</a>
+          <span>·</span>
+          <a href="https://linkedin.com/in/your-username" target="_blank">LinkedIn</a>
+          <span>·</span>
+          <a href="https://leetcode.com/u/your-username" target="_blank">LeetCode</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================= -->
+  <!-- 7. FOOTER                                                 -->
+  <!-- ========================================================= -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Bavathaarini All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button id="back-to-top" class="back-to-top-btn" aria-label="Scroll to top">↑</button>
+
+  <!-- Link to the external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
